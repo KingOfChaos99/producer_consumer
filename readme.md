@@ -28,7 +28,7 @@ g++ cleanup.cpp -o cleanup -pthread -lrt   # optional
 ## how to run
 ##see process ids
 ./producer & ./consumer &
-##to see the jobs running, run the two files in seperate terminals
+##to see the jobs running, run the two files in seperate terminals with the producer being run first
 ./cleanup
 
 ##example output
